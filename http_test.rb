@@ -8,7 +8,7 @@ require 'pry-byebug'
 
 class MyDemoTest < Minitest::Test
   def test_get_response_from_url
-    url = 'https://fr6p0p0nml.execute-api.eu-central-1.amazonaws.com/test/helloworld?name=John&city=Seattle'
+    url = 'https://fr6p0xxxe'
     headers = {
       'content-type': 'application/json'
     }
@@ -18,7 +18,7 @@ class MyDemoTest < Minitest::Test
     print response
   end
   def test_post_response_from_url
-    url = 'https://fr6p0p0nml.execute-api.eu-central-1.amazonaws.com/test/helloworld?name=John&city=Seattle'
+    url = 'https://fr6xxx'
     headers = {
       'content-type': 'application/json'
     }
@@ -26,7 +26,7 @@ class MyDemoTest < Minitest::Test
     print response
   end
   def test_get_response_from_url_with_query_string
-    url = 'https://fr6p0p0nml.execute-api.eu-central-1.amazonaws.com/test/helloworld'
+    url = 'https://fr6pxxx'
     uri =  URI.parse(url)
 
     values = ' "name": "John", "city": "Seattle" '
